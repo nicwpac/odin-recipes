@@ -3,19 +3,22 @@ body {
     padding: 0;
 }
 
-.header {
+nav ul {
     display: flex;
-    justify-content: space-between;
+    gap: 2%;
     align-items: center;
-    
-    padding: 1.75%;
-    margin: 0 auto;
-
+    margin: 0;
+    padding: 0 2%;
     color:white;
     background-color: peru;
+    list-style: none;
 }
 
-.header a, .header a:visited {
+li.logo {
+    margin-right: auto;
+}
+
+nav a, nav a:visited {
     text-decoration: none;
     color:white;
 }
